@@ -1,0 +1,58 @@
+[
+  {
+    "process": "Toys",
+    "asin": "B005ZG0FHW",
+    "mp": "US - Toys",
+    "error_type": "Reason code (Non- critical)",
+    "error_desc": "SP is appealing for Resolve Request but associate had used 'All Docs Missing' as reason code instead using 'Resolve Request/Testing refusal'",
+    "correct_resolution": "Reason code should be Resolved >> Not Approved >> Resolve Request/Testing refusal"
+  },
+  {
+    "process": "Non toys",
+    "asin": "B00KSEEMM0",
+    "mp": "US- Clothing Storage Units",
+    "error_type": "Communication (Non- critical)",
+    "error_desc": "“PA-Appeals-Document Missing” blurb was incorrectly sent but ASIN was tombstoned.",
+    "correct_resolution": "“PA -Inactive Asin” blurb"
+  },
+  {
+    "process": "Toys",
+    "asin": "B0C6SK5DKL",
+    "mp": "CA-Toys",
+    "error_type": "Decision (Non-critical)",
+    "error_desc": "Incorrectly classified as FP. ASIN is color changing mode pencils with kids claims. ASIN is  TP as per CA arts and crafts SOP",
+    "correct_resolution": "TP"
+  },
+  {
+    "process": "Toys",
+    "asin": "B0CQYGNR7Q",
+    "mp": "ES_Toys",
+    "error_type": "Communication - Non Critical",
+    "error_desc": "Associate had missed to send communication in local language based Appeal language. As per SOP, if seller is communicating in local language we need to respond in the same language ",
+    "correct_resolution": "Spanish - FP"
+  },
+  {
+    "process": "Toys",
+    "asin": "B0C9TB5JP4",
+    "mp": "US-Toys",
+    "error_type": "Communication (Non-critical)",
+    "error_desc": "“PA- Multiple re-opens for appeals” blurb was incorrectly sent but ASIN was tombstoned.",
+    "correct_resolution": "“PA -Inactive Asin” blurb"
+  },
+  {
+    "process": "Toys",
+    "asin": "B0CN3H6JNF",
+    "mp": "US-Toys",
+    "error_type": "Decision (Non-critical)",
+    "error_desc": "Incorrectly classified as TP. ASIN is a pet toy, as per SOP pet toys are out of scope.",
+    "correct_resolution": "FP"
+  },
+  {
+    "process": "Toys",
+    "asin": "B07ZFZX6P5",
+    "mp": "IT - Toys",
+    "error_type": "Communication - Non Critical",
+    "error_desc": "Associate had missed to send communication in local language based Appeal language. As per SOP we need to respond back on same language if seller is asking something in local language",
+    "correct_resolution": "Italian Language - TP"
+  }
+]
