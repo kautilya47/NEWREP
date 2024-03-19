@@ -1,24 +1,75 @@
+import React, { useState } from "react";
 import UpdateCard from "../components/UpdateCard";
+import updatesData from "../components/updates_data.json";
 
 export default function Updates() {
+  const [keyword, setKeyword] = useState("");
+  const [fromDate, setFromDate] = useState("");
+  const [toDate, setToDate] = useState("");
+
+  // Function to filter updates data based on keyword and date range
+  const filteredUpdates = updatesData.filter(update => {
+    // Filter by keyword
+    const keywordMatch = keyword === "" || update.updates.some(updateText => updateText.toLowerCase().includes(keyword.toLowerCase()));
+
+    // Filter by date range
+    const fromDateMatch = fromDate === "" || (new Date(update.date) >= new Date(fromDate));
+    const toDateMatch = toDate === "" || (new Date(update.date) <= new Date(toDate));
+
+    return keywordMatch && fromDateMatch && toDateMatch;
+  });
+
   return (
-    <div className="flex flex-col justify-center h-screen w-full bg-gradient-to-r from-rose-100 to-teal-100 py-80 overflow-auto">
-      <div className="container mx-auto py-2 text-sm">
-        <pre className="whitespace-pre-wrap">
-          <UpdateCard
-            text={`•	Basis the last calibrations with Program Team, we got the approval to treat Panini Trading cards as False Positive products.\n
-•	Until we will have the general approach for trading cards approved, we will be treating only Panini cards as FP to mitigate the risk of having frustrated cases and Escalation SIMs.`}
-            date="January 22,2024"
-          />
-        </pre>
+    <div className="flex">
+      <div className="float-left w-1/5 min-w-80 h-screen bg-slate-700 overflow-auto">
+        <div className="flex-column gap-5 p-10 justify-center">
+          <div className="inline-block">
+            <h1 className="flex text-white">Marketplace</h1>
+            <select className="text-black">
+              <option>All</option>
+              <option>US</option>
+              <option>UK</option>
+              <option>AU</option>
+              <option>SG</option>
+            </select>
+          </div>
+          <div>
+            <h1 className="text-white">Keyword</h1>
+            <input
+              type="text"
+              value={keyword}
+              onChange={e => setKeyword(e.target.value)}
+            ></input>
+          </div>
+          <div>
+            <h1 className="text-white">Date</h1>
+            <div>
+              <ul className="flex flex-col space-y-2">
+                <li>
+                  <label className="text-white">from:</label>
+                  <input
+                    type="date"
+                    value={fromDate}
+                    onChange={e => setFromDate(e.target.value)}
+                  ></input>
+                </li>
+                <li>
+                  <label className="text-white">to:</label>
+                  <input
+                    type="date"
+                    value={toDate}
+                    onChange={e => setToDate(e.target.value)}
+                  ></input>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="container mx-auto py-2 text-sm">
-        <pre className="whitespace-pre-wrap">
-          <UpdateCard
-            text={`•	Regarding the product type “5D diamond painting kit”, please be informed that if the kit is marketed for kids/children we will go ahead with restrictive approach as per SOP. Logic would be if the product theme is for adult and seller is claiming that kids can use it, in such cases Seller has to either submit documents or update details.`}
-            date="January 22,2024"
-          />
-        </pre>
+      <div className="flex flex-col h-screen w-full bg-gradient-to-r from-rose-100 to-teal-100 py-80 overflow-auto">
+        {filteredUpdates.map((update, index) => (
+          <UpdateCard key={index} updatearray={update.updates} date={update.date} tableData={update.updates_table_data} tableHeader={update.updates_table_header} />
+        ))}
       </div>
     </div>
   );

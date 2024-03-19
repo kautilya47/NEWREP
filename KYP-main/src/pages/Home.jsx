@@ -1,6 +1,7 @@
 import home_img1 from "../images/kyp-toys-home-pic3.jpg";
-
+import Flasher from "../components/Flasher";
 import "../css/Home.css";
+import SimpleSlider from "../components/SimpleSlider";
 
 export default function Home() {
   return (
@@ -18,6 +19,9 @@ export default function Home() {
             with classification,new updates,quality errors, important links etc
           </h4>
         </div>
+      </div>
+      <div className="">
+        <SimpleSlider />
       </div>
     </div>
   );

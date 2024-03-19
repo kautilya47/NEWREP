@@ -54,5 +54,149 @@
     "error_type": "Communication - Non Critical",
     "error_desc": "Associate had missed to send communication in local language based Appeal language. As per SOP we need to respond back on same language if seller is asking something in local language",
     "correct_resolution": "Italian Language - TP"
+  },
+  {
+    "process": "Toys",
+    "asin": "B082BDYQ41",
+    "mp": "ES - Toys",
+    "error_type": "Communication - Non Critical",
+    "error_desc": "Associate had missed to send communication in local language based Appeal language. As per SOP we need to respond back on same language if seller is asking something in local language",
+    "correct_resolution": "Spanish Language - TP"
+  },
+  {
+    "process": "Toys",
+    "asin": "B007MD85KK",
+    "mp": "US-Toys",
+    "error_type": "Reason Code error",
+    "error_desc": "Reason code is incorrect. ASIN is FP but the reviewer had incorrectly selected the reason code as “All document missing”",
+    "correct_resolution": "Resolved > Other > ASIN-False Positive"
+  },
+  {
+    "process": "Toys",
+    "asin": "B0CM3F4RX1",
+    "mp": "US-Toys",
+    "error_type": "Decision error (Non-critical)",
+    "error_desc": "ASIN has inappropriate theme for kids.",
+    "correct_resolution": "“PA Toys -  FP ASIN with TP claims” blurb"
+  },
+  {
+    "process": "Toys",
+    "asin": "B08SMV1RFW",
+    "mp": "US-Toys",
+    "error_type": "Communication error",
+    "error_desc": "Reviewer missed to add “Please disregard our previous communication” in the blurb.",
+    "correct_resolution": "“Please disregard our previous communication”  has to be sent when corrective action is taken."
+  },
+  {
+    "process": "Toys",
+    "asin": "B0CP4YGYKN",
+    "mp": "CA - Toys",
+    "error_type": "Decision error",
+    "error_desc": "Incorrectly sent MVP blurb. As per the update we have only 3 Brands under MVP ( LEGO, FUNKO, APPLE). ",
+    "correct_resolution": "FP- Please Validate Brand and Manufacturer attributes in CSI and Images in Media Central for MVPs check."
+  },
+  {
+    "process": "Toys",
+    "asin": "B0B8P78C1V",
+    "mp": "US - Toys",
+    "error_type": "Decision error",
+    "error_desc": "Incorrectly Classified as FP. As Per GRC Jigsaw Puzzles are to be classified based on number of Pieces ( 499 and lesser Pieces are TP)",
+    "correct_resolution": "TP"
+  },
+  {
+    "process": "Toys",
+    "asin": "B08NJJQ1KW",
+    "mp": "US - Toys",
+    "error_type": "Decision error",
+    "error_desc": "Incorrectly classified as TP. As per GRC Pet toys are to be considered as FP.",
+    "correct_resolution": "FP"
+  },
+  {
+    "process": "Non Toys",
+    "asin": "B01N9SZ57H",
+    "mp": "US Mobile Phone Chargers",
+    "error_type": "Communication error",
+    "error_desc": "Case was a 2nd reopen but reviewer Incorrectly sent subsequent blurb.",
+    "correct_resolution": "Multiple reopen blurb"
+  },
+  {
+    "process": "Non Toys",
+    "asin": "B0C2B9WYJP",
+    "mp": "US Infant Bouncer Seats",
+    "error_type": "Communication error",
+    "error_desc": "Incorrect GRC name and link used. Should have used oyster for Infant Bouncer Seats but used oyster for Booster Seats and the blurb edit is also incorrect.",
+    "correct_resolution": "PRC name and oyster for Infant Bouncer Seats should be sent."
+  },
+  {
+    "process": "Non toys",
+    "asin": "B0CNBXNFD3",
+    "mp": "US children's sleepwear",
+    "error_type": "Decision error",
+    "error_desc": "ASIN was classified incorrectly as FP. It is a robe. As per SOP, all robes should be restricted even if there are no “sleep” or “sleepwear” claim.",
+    "correct_resolution": "TP"
+  },
+  {
+    "process": "Non toys",
+    "asin": "B0CJ62BXM5",
+    "mp": "CA Power Banks",
+    "error_type": "Decision error",
+    "error_desc": "ASIN was classified incorrectly as FP. ASIN is a hand warmer with both input and output ports and the seller is advertising 'USB hand warmer can be used as a portable mobile power, charging your electronic devices through the USB cable.'",
+    "correct_resolution": "TP"
+  },
+  {
+    "process": "Non toys",
+    "asin": "B09V2K4CJZ",
+    "mp": "US Non Toys Magnets",
+    "error_type": "Communication error",
+    "error_desc": "The case belongs to “hardlines-product-compliance-us@amazon.com” queue. Reviewer had mentioned incorrect PRC name as “Children's Sleepwear” and attached wrong oyster link ",
+    "correct_resolution": "Correct PRC name and Oyster link has to be sent i.e, “Non Toys Magnets”"
+  },
+  {
+    "process": "Non toys",
+    "asin": "B08W3RLM7J",
+    "mp": "UK-Toys",
+    "error_type": "Decision Error",
+    "error_desc": "Incorrectly classified as TP. These are general use Pencils without any Play value or CE Marking.",
+    "correct_resolution": "FP"
+  },
+  {
+    "process": "Toys",
+    "asin": "B0CN45S2FN",
+    "mp": "CA-Toys",
+    "error_type": "Decision Error",
+    "error_desc": "Incorrectly classified as FP. ASIN is Plush toy and as mentioned in title. Plush toy should be approved only If there is strong FP claims like PA or Adult themed or Valentine claims without any kids claims.",
+    "correct_resolution": "TP"
+  },
+  {
+    "process": "Toys",
+    "asin": "B0CG18FM7T",
+    "mp": "CA-Toys",
+    "error_type": "Communication Error",
+    "error_desc": "Case belonged to CA MP, but EU blurb was sent. Please use the update Ashva tool to avoid such blurb errors.",
+    "correct_resolution": "NA TP blurb"
+  },
+  {
+    "process": "Toys",
+    "asin": "B09SW8D336",
+    "mp": "UK - Toys",
+    "error_type": "Decision error",
+    "error_desc": "ASIN was classified incorrectly. It is a casual wear and doesn't have any role-play value in it.",
+    "correct_resolution": "FP"
+  },
+  {
+    "process": "Non toys",
+    "asin": "B0CDN6VZTY",
+    "mp": "US Fall Protection harness",
+    "error_type": "Decision error",
+    "error_desc": "ASIN is a full body safety harness used for workers for safety purpose - associate approved the ASIN.",
+    "correct_resolution": "TP"
+  },
+  {
+    "process": "Non toys",
+    "asin": "B0CK2CWJWD",
+    "mp": "US Children's School Supplies",
+    "error_type": "Reason code error",
+    "error_desc": "Communication was correct (FP) but wrong reason code was selected. Image Missing RC was selected.",
+    "correct_resolution": "Resolved > Other > ASIN-False Positive"
   }
 ]

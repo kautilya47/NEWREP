@@ -1,0 +1,328 @@
+[
+    {
+        "date": "12-09-2023",
+        "prc": "Toys",
+        "mp": "EU",
+        "product_type": "",
+        "updates_table_header": [],
+        "updates_table_data": [
+            [],
+            []
+        ],
+        "updates": [
+            "",
+            ""
+        ]
+    },
+    {
+        "date": "12-09-2023",
+        "prc": "Toys",
+        "mp": "EU",
+        "product_type": "Puzzle",
+        "updates_table_header": [],
+        "updates_table_data": [
+            [],
+            []
+        ],
+        "updates": [
+            "• Jigsaw Puzzles up to 500 pieces are to be taken as TP.",
+            "• Jigsaw Puzzles from 501 pieces are to be taken as FP.",
+            "• Jigsaw Puzzles with having 500 pieces or less with the theme of adult like incredibly dark and adult themed. This refers to a band from the 80s (E.g. B07VFQKJD8 B07PPQ9JZY) will be considered ad FP.",
+            "• Puzzle like: https://3dino.eu/en/product/pinocchio-the-tree-of-coins-3d-puzzle-music-box/, which require lot of time and patience does not fit under toy classification. Please classify such type of puzzle as FP."
+        ]
+    },
+    {
+        "date": "12-09-2023",
+        "prc": "Toys",
+        "mp": "NA",
+        "product_type": "Balloon",
+        "updates_table_header": [],
+        "updates_table_data": [
+            [],
+            []
+        ],
+        "updates": [
+            "• All Balloons should be FP except the water balloons."
+        ]
+    },
+    {
+        "date": "12-09-2023",
+        "prc": "Toys",
+        "mp": "NA",
+        "product_type": "Costume",
+        "updates_table_header": [],
+        "updates_table_data": [
+            [],
+            []
+        ],
+        "updates": [
+            "• Costumes and accessories should be considered based on the PD & Age (If costumes for adults only then FP. If the product has claims for kids using it then TP"
+        ]
+    },
+    {
+        "date": "12-09-2023",
+        "prc": "Toys",
+        "mp": "NA",
+        "product_type": "General",
+        "updates_table_header": [],
+        "updates_table_data": [
+            [],
+            []
+        ],
+        "updates": [
+            "• Magic kits & accessories to be classified  basis on claims for kids & adults.If a product has any claims which mentions Toy, kids, children should be a TP. If no claims then product is good to go with FP. E.g.: B001IWYNZC is a TP for the title displays a keyword toy. Seller would require to provide document if he is claiming a product to be a Toy.",
+            "• Poker cards are FP, However if any ASIN has kid claims, those should be excluded from the category of FP and to be marked TP.",
+            "• Dollar Bills should also be considered basis on claims.If DP claims to have a child images on it should be considered as TP. Bullet points, title & description should be thoroughly validated and if claims found, product would fall under the TP category.",
+            "• Reels 3D should be TP as they have role play value & are marketed under toy category.",
+            "Programmable Robot Kit to be considered as TP based on claims."
+        ]
+    },
+    {
+        "date": "12-09-2023",
+        "prc": "Toys",
+        "mp": "NA",
+        "product_type": "Musical instrument",
+        "updates_table_header": [],
+        "updates_table_data": [
+            [],
+            []
+        ],
+        "updates": [
+            "• ASIN: B005DS5450",
+            "Musical Instruments are General use, however if there are claims particularly mentioning to be Educational/Learning toys etc. should be taken as True positive"
+        ]
+    },
+    {
+        "date": "12-09-2023",
+        "prc": "Toys",
+        "mp": "EU",
+        "product_type": "Nerf",
+        "updates_table_header": [],
+        "updates_table_data": [
+            [],
+            []
+        ],
+        "updates": [
+            "These Nerf Products usually sold as the wearing equipment (vests/ belts, shoulder bands and the toy accessories/ spare parts) are to be considered TP.",
+            "-  Wearing equipment: these are to be used during tactical games, which adds play value to the product and should be tested as toys (for example, vests would rather fall under disguise/ costume category).",
+            "-  Spare parts/ accessories: the age grade (14+) present on the DP conflicts the targeted audience for the original products, and even with the claim that it requires 'some disassembly capacity', the TP approach will be applied.",
+            "Only raised C-ops query to SME, if Appeals cases belong to nerf products from the brand owner (Hasbro - Nerf), in which they would state that they intentionally do not sell the product as a toy/NOT to be sold as Toys. Such ASINs will be revalidated by SMEs.",
+            "• Imp Note:  Please keep in mind that if you will identify cases with NERF products from preapproved sellers/ vendors, the preapproved brands scenario will be applied. Appeals cases raised by the brand owner himself (HASBRO) not a third party then send OOS blurb under Scenario #18a.",
+            "• Note: The TP approach can also be applied to ASINs from other brands, which refers to toy gun or gun accessories but with the same characteristics (e.g.: B083M351FW)."
+        ]
+    },
+    {
+        "date": "12-09-2023",
+        "prc": "Toys",
+        "mp": "NA",
+        "product_type": "Invisible ink pen",
+        "updates_table_header": [],
+        "updates_table_data": [
+            [],
+            []
+        ],
+        "updates": [
+            "CA MP Classification for Invisible Ink Pens and Beyblades",
+            "INVISIBLE INK PENS:",
+            "• Definition and Product description",
+            "This rule identifies all invisible ink pens that are marketed towards children. GPSC is restricting invisible ink pens marketed to children due to the fact that the screw-on cap of many invisible ink pen products can be removed by children easily, exposing the battery that powers the pen's UV light. The course of action being recommended for these products is an ASIN-level UPSC for invisible ink pen ASINs, whereby ASINs can be reinstated after all child-related terminology is removed from the ASIN's detail page and applicable compliance documents are reviewed and approved.",
+            "Product Definition: Invisible Ink Pens are pens with integrated UV lights that are often marketed to children as “toys.” Button cell batteries power the UV lights integrated into the pen, and are often accessible to children. The rule is only targeting pens with battery powered UV or black lights as part of the pen. Invisible ink pens with SEPARATE UV or black lights are ok for sale.\n",
+            "• Product Restrictions:",
+            "(1) Invisible Ink Pen Toy in Office Products (ASIN B011BFW19K & B019J7BGP2)",
+            "(2) Invisible Ink Pen with UV Light in Sports and Outdoors (ASIN B071VY7NF4)",
+            "(3) Invisible Ink Pen Spy Pen in Office Products (ASIN B01LXXGZIV and B0772KBKM4)",
+            "• Product Approvals:",
+            "(1) Disappearing ink pen with no light (ASIN B00ABV7IOE & B00175Z2QE)",
+            "(2) Ink pens that use tea or berries to view ink (ASIN B015A7CEJ2)",
+            "(3) UV Invisible Pen ID Kit with SEPARATE UV light (ASIN B00ILJKLV0)",
+            "(4) Invisible Ink Pen with SEPARATE UV light (ASIN B018IMRUA4 & B00SBXB7PU)",
+            "(5) Invisible Ink Pen not marketed towards children (ASIN B016ZTNNXA)",
+            "(6) Spy pens with camera or video recorder (ASIN B01G019JWM)",
+            "(7) Regular ink pens (ASIN B0753KDX1J)"
+        ]
+    },
+    {
+        "date": "12-09-2023",
+        "prc": "Toys",
+        "mp": "NA",
+        "product_type": "Costume",
+        "updates_table_header": [
+            "TP Criteria",
+            "FP Criteria"
+        ],
+        "updates_table_data": [
+            [
+                "Costume with role/cosplay which has claims of kids. E.g.: B091GFD969, B08DD7MG1L",
+                "Costume with role/cosplay which has no claims of kids. E.g. B081YQKV5K, B07HXZF2NT, B08RYWWQ8J"
+            ],
+            [
+                "Costume with role/cosplay which has claims like kid/children wearing them and stated in dept. as “Unisex- Child” E.g.: B092J7WZN7, B092J8KX48",
+                "Costume with role/cosplay which has only girl claim but dept. and size relates for adult use. E.g.: B08RBX13TL, B08PFRQ95P, B085FWD8VW"
+            ],
+            [
+                "Costume with role/cosplay which has no claims but has chart of adult and child category and where ASIN belongs to 3x-small/6x- small size which is Child department- E.g.: B07HH1TVRH, B07H5GMZKB",
+                "Costume with role/cosplay which has no claims but has chart of adult and child category and where ASIN belongs to Small size from adult category. E.g. : B07HH1HQRR, B07H5F6S4K"
+            ],
+            [
+                "Costume with role/cosplay which has no claims but as per Dept. it says “Unisex-Child”. E.g.: B092J1SMWM",
+                "Costume with role/cosplay which has no claims or chart but has dept. info where it says “Unisex Adult”. E.g. B06XFYV4LV"
+            ],
+            [
+                "Costume with role/cosplay which says as Adult kids and dept. as Unisex-adult and size for the ASIN belongs to one- size, take restrictive approach as TP. E.g.: B08NSHQVLX",
+                "ASIN: B071G2NG8P FP This costume for role/cosplay but has description it refers to Size Adult and dept. also as Unisex- adult"
+            ],
+            [
+                "ASIN: B07VB24NJL This costume for role/cosplay where we see girl claim and dept is Women in scenarios where there are equal claim for TP and FP, also no supporting images where kid is wearing. take restrictive approach as TP."
+            ]
+        ],
+        "updates": [
+            "",
+            ""
+        ]
+    },
+    {
+        "date": "12-09-2023",
+        "prc": "Toys",
+        "mp": "NA",
+        "product_type": "Costumes",
+        "updates_table_header": [
+            "TP Criteria",
+            "FP Criteria"
+        ],
+        "updates_table_data": [
+            [
+                "Wigs for kids solely e.g.: B08GZW2VSV",
+                "Wigs for adults only e.g.: B0926VF2GX"
+            ],
+            [
+                "Key words such as Girls, boys, infants, children etc. ",
+                "Marketed for Adult category only"
+            ],
+            [
+                "Hair strings for dolls & kids are TP.",
+                "Wigs for professional make up etc. are FP"
+            ]
+        ],
+        "updates": [
+            "",
+            ""
+        ]
+    },
+    {
+        "date": "12-09-2023",
+        "prc": "Toys",
+        "mp": "NA",
+        "product_type": "Seatbelt",
+        "updates_table_header": [
+            "TP Criteria",
+            "FP Criteria"
+        ],
+        "updates_table_data": [
+            [
+                "Harness belts with Appealing them without a storage bags coming with a doll e.g.: B0716BD7B3",
+                "Harness belts with backpacks (zipper included)\ne.g.: B073QQ553Z (also mentions to be backpack)"
+            ],
+            [
+                "Seat comfort pads are TP e.g.: B07QVBQVFD"
+            ]
+        ],
+        "updates": [
+            "",
+            ""
+        ]
+    },
+    {
+        "date": "12-09-2023",
+        "prc": "Toys",
+        "mp": "NA",
+        "product_type": "Sports Ball",
+        "updates_table_header": [
+            "TP Criteria",
+            "FP Criteria"
+        ],
+        "updates_table_data": [
+            [
+                "AISN with claims for kids e.g.: B086CXW8SF",
+                "ASIN with no claims and more of professional use e.g.: B08WYRMGNW"
+            ],
+            [
+                "",
+                "ASIN such are professional sharp darts e.g.: B07N685X5V"
+            ],
+            [
+                "",
+                "Professional table tennis Bat Set are to be taken FP irrespective of claims e.g.: B086TQT347"
+            ]
+        ],
+        "updates": [
+            "",
+            ""
+        ]
+    },
+    {
+        "date": "12-09-2023",
+        "prc": "Toys",
+        "mp": "NA",
+        "product_type": "Doll House accessories",
+        "updates_table_header": [
+            "TP Criteria",
+            "FP Criteria"
+        ],
+        "updates_table_data": [
+            [
+                "ASIN(s) which have kids claims (intended to play) to be marked as TP",
+                "Doll house construction solely for adults "
+            ],
+            [
+                "Claims which mention as 'Gift for kids' 'Collectible for kids' etc.",
+                "Product made of porcelain, ceramic and designed mostly for adults or no claims which also can be broken if dropped hence FP without claims"
+            ],
+            [
+                "Doll house claims mentions to be 12/15+ but also claims. ASIN to be marked TP",
+                "Quincenera dolls are used for celebration of a girl's fifteenth birthday. ASIN can be approved irrespective of claims if mentioned under Quincenera Theme e.g.: B07TLPPY8F"
+            ],
+            [
+                "Product made of porcelain, ceramic but with TP indicators will still remain Inscope"
+            ],
+            [
+                "Re-born dolls are TP "
+            ],
+            [
+                "e.g.: B06XPJWWR4, doll accessories are also TP like eyes or any play prop"
+            ]
+        ],
+        "updates": [
+            "",
+            ""
+        ]
+    },
+    {
+        "date": "12-09-2023",
+        "prc": "Toys",
+        "mp": "NA",
+        "product_type": "Jigsaw puzzles:",
+        "updates_table_header": [],
+        "updates_table_data": [
+            [],
+            []
+        ],
+        "updates": [
+            "Blanks jigsaw puzzles which are available for heat press are FP : B08GKR2HY4"
+        ]
+    },
+    {
+        "date": "12-09-2023",
+        "prc": "Toys",
+        "mp": "NA",
+        "product_type": "",
+        "updates_table_header": [],
+        "updates_table_data": [
+            [],
+            []
+        ],
+        "updates": [
+            "",
+            ""
+        ]
+    }
+]

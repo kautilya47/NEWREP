@@ -42,13 +42,13 @@ function ErrorsTable() {
               <tbody>
                 {data.map((row, index) => (
                   <tr className="border-b dark:border-neutral-500" key={index}>
-                    <td className="py-4 font-bold">{index + 1}</td>
-                    <td className="py-4 font-bold">{row.process}</td>
-                    <td className="py-4 font-bold">{row.asin}</td>
-                    <td className="py-4 font-bold">{row.mp}</td>
-                    <td className="py-4 font-bold">{row.error_type}</td>
-                    <td className="py-4 font-bold">{row.error_desc}</td>
-                    <td className="py-4 font-bold">{row.correct_resolution}</td>
+                    <td className="py-4 font-medium">{index + 1}</td>
+                    <td className="py-4 font-medium">{row.process}</td>
+                    <td className="py-4 font-medium">{row.asin}</td>
+                    <td className="py-4 font-medium">{row.mp}</td>
+                    <td className="py-4 font-medium">{row.error_type}</td>
+                    <td className="py-4 font-medium">{row.error_desc}</td>
+                    <td className="py-4 font-medium">{row.correct_resolution}</td>
                   </tr>
                 ))}
               </tbody>

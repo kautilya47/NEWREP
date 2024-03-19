@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const { MongoClient } = require("mongodb");
-const bodyParser = require("body-parser");
+var bodyParser = require("body-parser");
 
 const app = express();
 app.use(bodyParser.json());
@@ -57,6 +57,7 @@ app.get("/", async (req, res) => {
   }
 });
 
+
 // New endpoint to insert data into MongoDB
 app.post("/api/addData", cors(), async (req, res) => {
   try {
@@ -100,6 +101,32 @@ app.post("/api/addData", cors(), async (req, res) => {
   } catch (error) {
     console.error("Error inserting data into MongoDB:", error);
     res.status(500).json({ error: "Internal Server Error" });
+  }
+});
+
+
+var textParser = bodyParser.text();
+app.post('/api/authenticate', cors(), textParser, async (req, res) => {
+  const username = req.body;
+  console.log(req.body);
+  try {
+    const db = client.db('Saarthi');
+    const usersCollection = db.collection('users');
+
+    const existingUser = await usersCollection.findOne({ loginID: username });
+    console.log(existingUser);
+    if (existingUser) {
+      usersCollection.updateMany({ loginID: username }, { $inc: { visits: 1 } });
+      return res.send('Authentication successful');
+    } else {
+      usersCollection.insertOne({ loginID: username, visits: 1 });
+      console.log("New user inserted");
+      //return res.status(401).send('Invalid username');
+    }
+    res.send('Request received successfully');
+  } catch (error) {
+    console.error('Error authenticating user:', error);
+    return res.status(500).send('Internal server error');
   }
 });
 
